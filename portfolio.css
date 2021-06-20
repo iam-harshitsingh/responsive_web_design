@@ -1,0 +1,117 @@
+body{ margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    justify-content: center;}
+ 
+#navbar{ height:50px;
+       width:100%;
+      display: grid;
+      grid-template-columns: 4fr 1fr 1fr 1fr;
+      justify-content: center;
+      background-color: blue;
+      color: white;
+      position: fixed;
+      font-family: 'Baloo Bhaina 2', cursive;
+      padding: 10px;
+      margin-top: -50px;
+     }
+#a{ text-decoration: none;
+  font-size: x-large;
+  color:white;
+}
+#aa{ text-decoration: none;
+  font-size: x-large;
+  color:rgb(255, 255, 255);
+  background-color: black;
+}  
+#a:hover{ background-color: white;
+         color:blue;
+         border-radius: 10%;
+         font-size:25px;}
+
+#welcome-section{ height:100vh;
+                width:100%;
+                background: linear-gradient(90deg, blue, rgb(77, 60, 173), rgb(236, 60, 192));
+                }
+
+#header_left{ width:100%;
+           text-align: right;
+          
+           color:blue;
+           }
+#name{color:white;
+    z-index: 222;
+    padding-top: 170px;
+    padding-bottom: -100px;
+    margin-left:23vw;
+    font-size: 60px;
+    height: 35px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    transition: 1s;
+  }
+   
+#name1{color:white;
+     margin-left: 60vw;
+     font-size: 35px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    transition: 1s;}  
+#projects{ height: 100vh;
+         width: 100vw;
+         background: linear-gradient(90deg, rgb(236, 60, 192), rgb(77, 60, 173),blue );}  
+#contact{ height:85vh;
+        width:100%;
+        background: linear-gradient(90deg, blue, rgb(77, 60, 173), rgb(236, 60, 192));
+
+}
+#footer{ height:15vh;
+        width:100%;
+        color:white;
+        background-color: blue;
+        font-family: 'Baloo Bhaina 2', cursive;
+        display: grid;
+        padding-top: 20px;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        font-size:30px;
+        border-top: 2px solid white;} 
+#contact1{ padding-top: 80px;
+         padding-bottom: -10px;
+         height:90px;
+        font-size: 75px;
+        color:white;
+        text-align: center;
+        
+        font-family: 'Baloo Bhaina 2', cursive;}     
+#contact2{ padding-top:0px;
+         font-size: 25px;
+         padding-left:820px;
+         color:white;
+         font-family: 'Baloo Bhaina 2', cursive;} 
+#contact3{ display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding:10px;
+        }
+@media (max-width:400px;) { #contact3{ display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:10px;
+        }
+        }         
+#profile-link{     padding:50px;
+        color:white;
+        text-align: center;
+        font-family: 'Baloo Bhaina 2', cursive;
+        font-size: xx-large;
+        transition: 0.5s;} 
+#profile-link:hover{ padding-top:75px;
+          text-decoration: underline; }  
+#threebox{ margin-top: 20px;
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr; 
+         padding:60px;
+         gap: 20px ; } 
+.project-tile{ text-decoration: none;}   
+#image{ height:100%;
+      width:100%;} 
